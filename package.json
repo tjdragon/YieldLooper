@@ -1,0 +1,42 @@
+{
+  "name": "yieldlooper",
+  "version": "1.0.0",
+  "description": "The intersection of LLMs and digital assets has shifted from \"chatbots about crypto\" to Agentic Finance—where AI doesn't just talk, but possesses a wallet and executes on-chain.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjdragon/YieldLooper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tjdragon/YieldLooper/issues"
+  },
+  "homepage": "https://github.com/tjdragon/YieldLooper#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^5.0.2",
+    "@nomicfoundation/hardhat-viem": "^3.0.2",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^25.3.0",
+    "hardhat": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "viem": "^2.46.2"
+  },
+  "dependencies": {
+    "@aave/core-v3": "^1.19.3",
+    "@dfns/sdk": "^0.8.11",
+    "@dfns/sdk-keysigner": "^0.8.11",
+    "@google/generative-ai": "^0.24.1",
+    "@morpho-org/morpho-blue": "^1.0.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.3.1"
+  }
+}

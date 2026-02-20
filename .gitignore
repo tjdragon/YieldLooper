@@ -1,0 +1,4 @@
+secrets.txt
+prompts/
+node_modules
+.env
